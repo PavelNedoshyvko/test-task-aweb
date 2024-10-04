@@ -109,16 +109,16 @@ body {
 
 .container {
   width: 100%;
-  max-width: 595px;
+  max-width: 483px;
   margin: 0 auto;
+  padding-left: 56px;
+  padding-right: 56px;
   background-color: #fff;
 }
 
 .section.description {
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-left: 56px;
-  padding-right: 56px;
 }
 
 .description__main-title {
@@ -142,6 +142,10 @@ body {
   font-weight: bold;
 }
 
+.section__table {
+  padding-bottom: 30px;
+}
+
 .section__table-title {
   margin-bottom: 16px;
   font-size: 14px;
@@ -159,6 +163,10 @@ body {
   list-style-type: decimal;
 }
 
+.section__table-list {
+  list-style-position: inside;
+}
+
 .table__cell {
   border: 2px solid #000;
   padding-left: 10px;
@@ -173,7 +181,8 @@ body {
 
 .table__cell-list {
   list-style-type: disc;
-  padding-left: 40px;
+  list-style-position: inside;
+  padding-left: 20px;
   padding-right: 20px;
   margin-bottom: 30px;
   font-size: 12px;
@@ -186,15 +195,7 @@ body {
   font-size: 12px;
 }
 
-.section__table {
-  padding-bottom: 30px;
-  padding-left: 56px;
-  padding-right: 56px;
-}
-
 .section.advantages {
-  padding-left: 56px;
-  padding-right: 56px;
   padding-bottom: 30px;
 }
 
